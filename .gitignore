@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+.venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Flask specific
+instance/
+.webassets-cache
+*.log
+
+# Google Cloud specific
+*.json  # For service account keys (store these securely, e.g. via secrets manager)
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Cache
+.cache/
+*.bak
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+
+# Docker
+Dockerfile
+*.dockerignore
+
+# Environment variables (if using)
+.env
+
+# Requirements
+pip-log.txt
+pip-delete-this-directory.txt
